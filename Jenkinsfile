@@ -1,5 +1,5 @@
-def tomcatWeb = 'C:\Users\AMBUJ\Downloads\apache-tomcat-9.0.55-windows-x64\apache-tomcat-9.0.55\webapps'
-// def tomcatBin = 'C:\Users\AMBUJ\Downloads\apache-tomcat-9.0.55-windows-x64\apache-tomcat-9.0.55\bin'
+def tomcatWeb = 'C:\\Users\\AMBUJ\\Downloads\\apache-tomcat-9.0.55-windows-x64\\apache-tomcat-9.0.55\\webapps'
+// def tomcatBin = 'C:\\Users\\AMBUJ\\Downloads\\apache-tomcat-9.0.55-windows-x64\\apache-tomcat-9.0.55\\bin'
 // def status = ''
 
 pipeline {
