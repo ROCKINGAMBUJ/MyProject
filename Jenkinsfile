@@ -22,10 +22,10 @@ pipeline {
 //                 bat 'mvn package'
 //             }
 //         }
-        stage('Deploying') {
-            steps {
-                bat "copy target\\demo.war \"${tomcatWeb}\\demo.war\""
-            }
-        }
+//         stage('Deploying') {
+//             steps {
+//                 bat "copy target\\demo.war \"${tomcatWeb}\\demo.war\""
+//             }
+//         }
     }
 }
