@@ -24,7 +24,7 @@ pipeline {
 //         }
         stage('Deploying') {
             steps {
-                bat "copy target\\demo.war.war \"${tomcatWeb}\\demo.war""
+                bat "copy target\\blink.war \"${tomcatWeb}\\blink.war""
             }
         }
     }
